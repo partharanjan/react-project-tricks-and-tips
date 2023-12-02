@@ -19,12 +19,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/controls/*": ["controls"],
+      "@/libs/*": ["libs"]
     },
   },
   "include": [
     "src"
-  ]
+, "ui", "lib"  ]
 }
